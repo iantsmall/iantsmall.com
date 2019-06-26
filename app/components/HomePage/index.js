@@ -7,9 +7,12 @@
 
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { FormattedMessage } from 'react-intl';
 import { Container, Row, Col, Jumbotron } from 'react-bootstrap';
 
 import Menu from 'containers/Menu/Loadable';
+import Resume from 'components/Resume/Loadable';
+import messages from './messages';
 
 export default function HomePage() {
   return (
@@ -32,7 +35,10 @@ export default function HomePage() {
         <Row>
           <Col xs={12}>
             <Jumbotron id="viewport" className="modal-container">
-              <h1>More Content Coming Soon</h1>
+              <h2>
+                <FormattedMessage {...messages.resumeheader} />
+              </h2>
+              <Resume />
             </Jumbotron>
           </Col>
         </Row>
