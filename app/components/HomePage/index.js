@@ -9,19 +9,14 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Container, Row, Col, Jumbotron } from 'react-bootstrap';
 
-import HexGame from 'containers/HexGame';
 import Menu from 'containers/Menu/Loadable';
 
 export default function HomePage() {
-  const boardSize = 9;
   return (
     <React.Fragment>
       <Helmet>
         <title>Hex in React Redux</title>
-        <meta
-          name="description"
-          content="Hex in React using React Redux and Redux Saga"
-        />
+        <meta name="description" content="Portfolio of Ian T. Small" />
       </Helmet>
       <Container>
         <Row>
@@ -37,7 +32,7 @@ export default function HomePage() {
         <Row>
           <Col xs={12}>
             <Jumbotron id="viewport" className="modal-container">
-              <HexGame boardSize={boardSize} />
+              <h1>More Content Coming Soon</h1>
             </Jumbotron>
           </Col>
         </Row>
