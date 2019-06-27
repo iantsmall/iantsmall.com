@@ -21,12 +21,8 @@ export default function HomePage() {
         <title>Ian T. Small</title>
         <meta name="description" content="Portfolio of Ian T. Small" />
       </Helmet>
+      <Menu />
       <Container>
-        <Row>
-          <Col xs={12}>
-            <Menu />
-          </Col>
-        </Row>
         <Row>
           <Col xs={12}>
             <div id="alert" />
