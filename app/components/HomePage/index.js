@@ -8,9 +8,17 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { FormattedMessage } from 'react-intl';
-import { Container, Row, Col, Jumbotron } from 'react-bootstrap';
+import {
+  Container,
+  Row,
+  Col,
+  Jumbotron,
+  Button,
+  ButtonGroup,
+} from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 
-import Resume from 'components/Resume/Loadable';
+import PortraitImage from 'components/PortraitImage/Loadable';
 import messages from './messages';
 
 export default function HomePage() {
@@ -29,10 +37,33 @@ export default function HomePage() {
         <Row>
           <Col xs={12}>
             <Jumbotron id="viewport" className="modal-container">
-              <h2>
-                <FormattedMessage {...messages.resumeheader} />
-              </h2>
-              <Resume />
+              <h1>
+                <FormattedMessage {...messages.title} />
+              </h1>
+              <Row>
+                <Col lg={{ order: 2, span: 7 }} xs={{ order: 1, span: 12 }}>
+                  <h2>
+                    <FormattedMessage {...messages.header} />
+                  </h2>
+                  <PortraitImage src="https://www.thekeepstudios.com/wp-content/uploads/2018/07/ian_office_cropped-206x300.jpg" />
+                  <FormattedMessage {...messages.welcome} />
+                </Col>
+                <Col lg={{ order: 1, span: 3 }} xs={{ order: 2, span: 12 }}>
+                  <center>
+                    <ButtonGroup size="lg" vertical>
+                      <LinkContainer to="/portfolio/">
+                        <Button>Portfolio</Button>
+                      </LinkContainer>
+                      <Button href="https://www.thekeepstudios.com/about-us/iantsmall/">
+                        TKS&nbsp;Profile
+                      </Button>
+                      <LinkContainer to="/resume/">
+                        <Button>Resume</Button>
+                      </LinkContainer>
+                    </ButtonGroup>
+                  </center>
+                </Col>
+              </Row>
             </Jumbotron>
           </Col>
         </Row>

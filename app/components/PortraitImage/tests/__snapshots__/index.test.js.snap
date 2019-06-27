@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PortraitImage /> Should render and match the snapshot 1`] = `
+<div
+  class="PortraitImage__StyledContainer-bnolk7-0 qQBZU"
+>
+  <img
+    class="PortraitImage__StyledImage-bnolk7-1 lbcmjr"
+  />
+</div>
+`;

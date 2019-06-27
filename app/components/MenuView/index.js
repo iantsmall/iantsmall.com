@@ -10,10 +10,11 @@ import PropTypes from 'prop-types';
 
 import { FormattedMessage } from 'react-intl';
 import { Container, Navbar, Nav, NavItem } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
 import messages from './messages';
 
 const MenuView = ({ onComingSoonClick }) => (
-  <Navbar bg="dark" variant="dark" expand="sm" sticky="top" collapseOnSelect>
+  <Navbar bg="dark" variant="dark" expand="md" sticky="top" collapseOnSelect>
     <Container>
       <Navbar.Brand>
         <FormattedMessage {...messages.brand} />
@@ -26,6 +27,13 @@ const MenuView = ({ onComingSoonClick }) => (
       </Navbar.Collapse>
       <Navbar.Collapse className="justify-content-end">
         <Nav>
+          <NavItem>
+            <LinkContainer to="/resume/">
+              <Nav.Link href="/resume/">
+                <FormattedMessage {...messages.resume} />
+              </Nav.Link>
+            </LinkContainer>
+          </NavItem>
           <NavItem>
             <Nav.Link href="#comingSoon" onSelect={onComingSoonClick}>
               <FormattedMessage {...messages.comingSoon} />

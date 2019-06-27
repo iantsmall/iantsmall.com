@@ -19,6 +19,10 @@ export default defineMessages({
   },
   comingSoon: {
     id: `${scope}.comingSoon`,
-    defaultMessage: 'Coming Soon',
+    defaultMessage: 'Site Roadmap',
+  },
+  resume: {
+    id: `${scope}.resume`,
+    defaultMessage: 'Resume',
   },
 });
