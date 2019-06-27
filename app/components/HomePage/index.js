@@ -10,7 +10,6 @@ import { Helmet } from 'react-helmet';
 import { FormattedMessage } from 'react-intl';
 import { Container, Row, Col, Jumbotron } from 'react-bootstrap';
 
-import Menu from 'containers/Menu/Loadable';
 import Resume from 'components/Resume/Loadable';
 import messages from './messages';
 
@@ -21,7 +20,6 @@ export default function HomePage() {
         <title>Ian T. Small</title>
         <meta name="description" content="Portfolio of Ian T. Small" />
       </Helmet>
-      <Menu />
       <Container>
         <Row>
           <Col xs={12}>
