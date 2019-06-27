@@ -32,9 +32,11 @@ exports[`<HomePage /> should render and match the snapshot 1`] = `
         class="modal-container jumbotron"
         id="viewport"
       >
-        <h1>
-          More Content Coming Soon
-        </h1>
+        <h2>
+          <span>
+            Fullstack Developer Resume
+          </span>
+        </h2>
       </div>
     </div>
   </div>
