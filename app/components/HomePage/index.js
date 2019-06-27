@@ -18,7 +18,7 @@ export default function HomePage() {
   return (
     <React.Fragment>
       <Helmet>
-        <title>Hex in React Redux</title>
+        <title>Ian T. Small</title>
         <meta name="description" content="Portfolio of Ian T. Small" />
       </Helmet>
       <Container>
