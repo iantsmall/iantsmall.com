@@ -1,11 +1,12 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import details from 'assets/illustrations/details.svg';
 
 export const Wrapper = styled.div`
-	background-image: url('../illustrations/details.svg');
+	background-image: url('${details}');
 	background-size: contain;
 	background-position: left top;
 	background-repeat: no-repeat;
-`
+`;
 
 export const SkillsWrapper = styled.div`
 	padding: 4rem 0;
@@ -16,7 +17,7 @@ export const SkillsWrapper = styled.div`
 	@media (max-width: 960px) {
 		flex-direction: column;
 	}
-`
+`;
 
 export const Details = styled.div`
 	flex: 1;
@@ -40,7 +41,7 @@ export const Details = styled.div`
 		line-height: 1.3;
 		color: #707070;
 	}
-`
+`;
 
 export const Thumbnail = styled.div`
 	flex: 1;
@@ -53,4 +54,4 @@ export const Thumbnail = styled.div`
 	img {
 		width: 100%;
 	}
-`
+`;

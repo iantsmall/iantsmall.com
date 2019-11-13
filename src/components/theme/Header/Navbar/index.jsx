@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link } from 'gatsby'
-import { Container } from 'components/common'
-import NavbarLinks from '../NavbarLinks'
-import { Wrapper } from './styles'
+import React from 'react';
+import { Link } from 'gatsby';
+import { Container } from 'components/common';
+import NavbarLinks from '../NavbarLinks';
+import { Wrapper } from './styles';
 import { defaultTitle } from 'data/config';
 
 const Navbar = () => (
@@ -10,6 +10,6 @@ const Navbar = () => (
 		<Link to="/">{defaultTitle}</Link>
 		<NavbarLinks desktop />
 	</Wrapper>
-)
+);
 
-export default Navbar
+export default Navbar;

@@ -1,1 +1,0 @@
-{"errors":[{"message":"You must provide a `first` or `last` value to properly paginate the `pinnedItems` connection.","locations":[{"line":3,"column":5}],"path":["github","viewer"]}],"data":null}
