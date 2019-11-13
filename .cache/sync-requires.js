@@ -5,7 +5,7 @@ const preferDefault = m => m && m.default || m
 
 
 exports.components = {
-  "component---cache-dev-404-page-js": hot(preferDefault(require("/home/ubuntu/environment/iantsmall.com/.cache/dev-404-page.js"))),
+  "component---node-modules-gatsby-plugin-offline-app-shell-js": hot(preferDefault(require("/home/ubuntu/environment/iantsmall.com/node_modules/gatsby-plugin-offline/app-shell.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/home/ubuntu/environment/iantsmall.com/src/pages/404.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/home/ubuntu/environment/iantsmall.com/src/pages/index.js")))
 }
