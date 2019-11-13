@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Wrapper = styled.div`
 	z-index: 5;
@@ -18,16 +18,16 @@ export const Wrapper = styled.div`
 		`
 			right: 18%;
 			top: 1.4rem;
-		
+
 			@media (max-width: 960px) {
 				right: 35%;
 			}
-		
+
 			@media (max-width: 600px) {
 				right: 66%;
 			}
 	`}
-`
+`;
 
 export const Bar = styled.div`
 	width: 1.6rem;
@@ -63,4 +63,4 @@ export const Bar = styled.div`
 		`
 			transform: translateY(-6px) rotate(-45deg);
 	`}
-`
+`;

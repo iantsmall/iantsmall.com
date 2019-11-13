@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Wrapper = styled.div`
 	padding-bottom: 4rem;
@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
 	background-size: contain;
 	background-position: right top;
 	background-repeat: no-repeat;
-`
+`;
 
 export const IntroWrapper = styled.div`
 	padding: 4rem 0;
@@ -17,7 +17,7 @@ export const IntroWrapper = styled.div`
 	@media (max-width: 960px) {
 		flex-direction: column;
 	}
-`
+`;
 
 export const Details = styled.div`
 	flex: 1;
@@ -47,7 +47,7 @@ export const Details = styled.div`
 			font-size: 26pt;
 		}
 	}
-`
+`;
 
 export const Thumbnail = styled.div`
 	flex: 1;
@@ -59,4 +59,4 @@ export const Thumbnail = styled.div`
 	img {
 		width: 100%;
 	}
-`
+`;

@@ -1,8 +1,8 @@
-import React from 'react'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { Container, Button } from 'components/common'
-import dev from 'assets/illustrations/skills.svg'
-import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles'
+import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { Container, Button } from 'components/common';
+import dev from 'assets/illustrations/skills.svg';
+import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles';
 import { defaultDescription } from 'data/config';
 
 //TODO write content
@@ -23,4 +23,4 @@ export const Skills = () => (
       </Details>
     </SkillsWrapper>
   </Wrapper>
-)
+);
