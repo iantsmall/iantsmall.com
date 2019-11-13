@@ -1,7 +1,8 @@
 import styled from 'styled-components';
+import details from 'assets/illustrations/details.svg';
 
 export const Wrapper = styled.div`
-	background-image: url('../illustrations/details.svg');
+	background-image: url('${details}');
 	background-size: contain;
 	background-position: left top;
 	background-repeat: no-repeat;
